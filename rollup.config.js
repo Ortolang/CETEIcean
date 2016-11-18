@@ -9,6 +9,6 @@ export default {
   moduleName: 'CETEI',
   plugins: [
     babel({exclude: 'node_modules/**', "presets": ["es2015-rollup"]}),
-    uglify()
+    // uglify()
   ]
 }
